@@ -18,7 +18,7 @@ class demo
                 t[k++] = temp[j++];
             }
         } 
-        while(i<= mid)
+        while(i<= mid)//for remaining arrays 
         {
             t[k++] = temp[i++];
         }

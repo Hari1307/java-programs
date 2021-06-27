@@ -7,7 +7,7 @@ public class quicksort
         int pivot = q[l];
         while(start < end)
         {
-            while(q[start] < pivot)
+            while(q[start] <= pivot)
             {
                 start++;
             }

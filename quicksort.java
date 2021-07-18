@@ -26,8 +26,8 @@ public class quicksort
         }
 
         int g = q[end];
-        q[end] = pivot;
-        pivot = g;
+        q[end] = q[l];
+        q[l] = g;
 
         return end;
     }
